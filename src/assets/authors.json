@@ -1,0 +1,30 @@
+[
+        {
+            "id": 1,
+            "name": "Jean-Paul Sartre",
+            "biography": "Jean-Paul Sartre, (1905-1980) born in Paris in 1905, studied at the École Normale Supérieure from 1924 to 1929 and became Professor of Philosophy at Le Havre in 1931. With the help of a stipend from the Institut Français he studied in Berlin (1932) the philosophies of Edmund Husserl and Martin Heidegger. After further teaching at Le Havre, and then in Laon, he taught at the Lycée Pasteur in Paris from 1937 to 1939. Since the end of the Second World War, Sartre has been living as an independent writer. Sartre is one of those writers for whom a determined philosophical position is the centre of their artistic being. Although drawn from many sources, for example, Husserl's idea of a free, fully intentional consciousness and Heidegger's existentialism, the existentialism Sartre formulated and popularized is profoundly original. Its popularity and that of its author reached a climax in the forties, and Sartre's theoretical writings as well as his novels and plays constitute one of the main inspirational sources of modern literature. In his philosophical view atheism is taken for granted; the 'loss of God' is not mourned. Man is condemned to freedom, a freedom from all authority, which he may seek to evade, distort, and deny but which he will have to face if he is to become a moral being. The meaning of man's life is not established before his existence. Once the terrible freedom is acknowledged, man has to make this meaning himself, has to commit himself to a role in this world, has to commit his freedom. And this attempt to make oneself is futile without the 'solidarity' of others.",
+            "works": [
+                { "name": "The Wall", "id": 4 }, 
+                { "name": "No Exit", "id": 3 },
+                { "name": "Nousies", "id": 1 }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Alber Camus",
+            "biography": "Albert Camus (1913-1960) was a representative of non-metropolitan French literature. His origin in Algeria and his experiences there in the thirties were dominating influences in his thought and work. Of semi-proletarian parents, early attached to intellectual circles of strongly revolutionary tendencies, with a deep interest in philosophy (only chance prevented him from pursuing a university career in that field), he came to France at the age of twenty-five. The man and the times met: Camus joined the resistance movement during the occupation and after the liberation was a columnist for the newspaper Combat. But his journalistic activities had been chiefly a response to the demands of the time; in 1947 Camus retired from political journalism and, besides writing his fiction and essays, was very active in the theatre as producer and playwright (e.g., Caligula, 1944). He also adapted plays by Calderon, Lope de Vega, Dino Buzzati, and Faulkner's Requiem for a Nun. His love for the theatre may be traced back to his membership in L'Equipe, an Algerian theatre group, whose 'collective creation' Révolte dans les Asturies (1934) was banned for political reasons.",
+            "works": [
+                { "name": "The Plague", "id": 5 },
+                { "name": "The Stranger", "id": 2 }
+            ] 
+        },
+        {
+            "id": 3,
+            "name": "Friedrich Nietzsche",
+            "biography": "Born on 15 October 1844, Nietzsche grew up in the small town of Röcken, near Leipzig, in the Prussian Province of Saxony. He was named after King Friedrich Wilhelm IV of Prussia, who turned forty-nine on the day of Nietzsche's birth. (Nietzsche later dropped his middle name 'Wilhelm'.[23]) Nietzsche's parents, Carl Ludwig Nietzsche (1813–1849), a Lutheran pastor and former teacher, and Franziska Nietzsche (de) (1826–1897), married in 1843, the year before their son's birth. They had two other children: a daughter, Elisabeth Förster-Nietzsche, born in 1846, and a second son, Ludwig Joseph, born in 1848. Nietzsche's father died from a brain ailment in 1849; Ludwig Joseph died six months later, at age two.[24] The family then moved to Naumburg, where they lived with Nietzsche's maternal grandmother and his father's two unmarried sisters. After the death of Nietzsche's grandmother in 1856, the family moved into their own house, now Nietzsche-Haus, a museum and Nietzsche study centre.",
+            "works": [
+                { "name": "Thus Spoke Zarathustra", "id": 6 },
+                { "name": "The Antichrist", "id": 7 }
+            ] 
+        }
+]

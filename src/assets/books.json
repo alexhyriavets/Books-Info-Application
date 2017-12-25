@@ -1,0 +1,66 @@
+ [
+        {
+            "id": 1,
+            "name": "Nousies",
+            "author": [
+                { "name": "Jean-Paul Sartre", "id": 1}
+            ],
+            "genre": "Novel",
+            "description": "Nausea is the story of Antoine Roquentin, a French writer who is horrified at his own existence. In impressionistic, diary form he ruthlessly catalogues his every feeling and sensation about the world and people around him. His thoughts culminate in a pervasive, overpowering feeling of nausea which 'spread at the bottom of the viscous puddle, at the bottom of our time, the time of purple suspenders and broken chair seats; it is made of wide, soft instants, spreading at the edge, like an oil stain.' Roquentin's efforts to come to terms with his life, his philosophical and psychological struggles, give Sartre the opportunity to dramatize the tenets of his Existentialist creed. The introduction for this edition of Nausea by Hayden Carruth gives background on Sartre's life and major works, a summary of the principal themes of Existentialist philosophy, and a critical analysis of the novel itself."
+        },
+        {
+            "id": 2,
+            "name": "Stranger",
+            "author": [
+                { "name": "Alber Camus", "id": 2 }
+            ],
+            "genre": "Novel",
+            "description": "This Spark Note describes Meursault as being amoral. I completely disagree with this interpretation. It is not that Meursault does not understand right and wrong but rather that his ideas of right and wrong differ from those of society. This different moral code can be seen by the way he refuses to break his own morals. He may not value life but he does value honesty and his disbelief in a higher being. Throughout the book he never lies or pretends to have faith in God not even to save his life. His specific moral code is founded in Camus` ideas of existentialism and the absurd"
+        },
+        {
+            "id": 3,
+            "name": "No Exit",
+            "author": [
+                { "name": "Jean-Paul Sartre", "id": 1 },
+                { "name": "Alber Camus", "id": 2 }
+            ],
+            "genre": "Philosophy",
+            "description": "The original title is the French equivalent of the legal term in camera, referring to a private discussion behind closed doors. The play was first performed at the Théâtre du Vieux-Colombier in May 1944.[1] The play begins with three characters who find themselves waiting in a mysterious room. It is a depiction of the afterlife in which three deceased characters are punished by being locked into a room together for eternity. It is the source of Sartre's especially famous and often misinterpreted quotation 'L'enfer, c'est les autres' or 'Hell is other people',[citation needed] a reference to Sartre's ideas about the look and the perpetual ontological struggle of being caused to see oneself as an object from the view of another consciousness'"
+        },
+        {
+            "id": 4,
+            "name": "The Wall",
+            "author": [
+                { "name": "Jean-Paul Sartre", "id": 1 }
+            ],
+            "genre": "Short story",
+            "description": "The eponymous story coldly depicts a situation in which prisoners are condemned to death. Written in 1939, the story is set in the Spanish Civil War, which began July 18, 1936, and ended April 1, 1939, when the Nationalists (known in Spanish as the Nacionales), led by General Francisco Franco, overcame the forces of the Spanish Republic and entered Madrid."
+        },
+        {
+            "id": 5,
+            "name": "The Plague",
+            "author": [
+                { "name": "Alber Camus", "id": 2 }
+            ],
+            "genre": "Philosophy",
+            "description": "is a novel by Albert Camus, published in 1947, that tells the story of a plague sweeping the French Algerian city of Oran. It asks a number of questions relating to the nature of destiny and the human condition. The characters in the book, ranging from doctors to vacationers to fugitives, all help to show the effects the plague has on a populace."
+        },
+        {
+            "id": 6,
+            "name": "Thus Spoke Zarathustra",
+            "author": [
+                { "name": "Friedrich Nietzsche", "id": 3 }
+            ],
+            "genre": "Philosophy",
+            "description": "Is a philosophical novel by German philosopher Friedrich Nietzsche, composed in four parts between 1883 and 1885 and published between 1883 and 1891.[1] Much of the work deals with ideas such as the 'eternal recurrence of the same', the parable on the death of God, and the prophecy of the Übermensch, which were first introduced in The Gay Science"
+        },
+        {
+            "id": 7,
+            "name": "The Antichrist",
+            "author": [
+                { "name": "Friedrich Nietzsche", "id": 3 }
+            ],
+            "genre": "Philosophy",
+            "description": "Is a book by the philosopher Friedrich Nietzsche, originally published in 1895. Although it was written in 1888, its controversial content made Franz Overbeck and Heinrich Köselitz delay its publication, along with Ecce Homo.[1] The German title can be translated into English as either The Anti-Christ or The Anti-Christian, depending on how the German word Christ is translated."
+        }
+]

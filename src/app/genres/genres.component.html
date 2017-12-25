@@ -1,0 +1,29 @@
+<mat-card>
+
+  <mat-select [(ngModel)]="currentGenre" placeholder="Choose genre" *ngIf="genres">
+    <mat-option value="all">
+      Show All
+    </mat-option>
+    <mat-option *ngFor="let genre of genres" [value]="genre.name">
+      {{ genre.name }}
+    </mat-option>
+  </mat-select>
+
+</mat-card>
+
+<div class="container" *ngIf="books">
+
+    <mat-card *ngFor="let book of books | filter: currentGenre">
+  
+      <mat-card-title routerLink="/books/{{ book.id }}">
+        {{ book.name }}
+      </mat-card-title>
+      <mat-card-subtitle
+        *ngFor="let author of book.author"
+        routerLink="/authors/{{ author.id }}">
+        {{ author.name }}
+      </mat-card-subtitle>
+  
+    </mat-card>
+  
+</div>

@@ -1,0 +1,16 @@
+<mat-card class="container" *ngIf="bookInfo">
+
+<h1>{{ bookInfo.name }}</h1>
+
+<h3
+    *ngFor="let author of bookInfo.author"
+    routerLink="/authors/{{ author.id }}"
+>{{ author.name }}</h3>
+
+<h4 
+    routerLink="/genres"
+    [queryParams]="{ filterBy: bookInfo.genre }"
+>{{ bookInfo.genre }}</h4>
+
+<p class="book-description">{{ bookInfo.description }}</p>
+</mat-card>

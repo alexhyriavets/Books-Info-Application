@@ -1,0 +1,14 @@
+<mat-card class="container" *ngIf="authorInfo">
+  <h1>{{ authorInfo.name }}</h1>
+
+  <p class="biography">{{ authorInfo.biography }}</p>
+
+  <div class="books-wrap" *ngIf="authorInfo.works">
+      <mat-card
+        *ngFor="let work of authorInfo.works"
+        routerLink="/books/{{ work.id }}"
+      >
+        {{ work.name }}
+      </mat-card>
+    </div>
+  </mat-card>

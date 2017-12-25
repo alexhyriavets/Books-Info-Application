@@ -1,0 +1,17 @@
+<div class="container" *ngIf="books">
+
+  <mat-card *ngFor="let book of books">
+
+    <mat-card-title routerLink="/books/{{ book.id }}">
+      {{ book.name }}
+    </mat-card-title>
+    <mat-card-subtitle
+      *ngFor="let author of book.author"
+      routerLink="/authors/{{ author.id }}">
+      {{ author.name }}
+    </mat-card-subtitle>
+
+  </mat-card>
+
+</div>
+

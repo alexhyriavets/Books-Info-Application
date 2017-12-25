@@ -1,0 +1,29 @@
+<div class="container" *ngIf="authors">
+
+  <mat-expansion-panel *ngFor="let author of authors">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+          {{ author.name }}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    
+    <div class="content-wrap">
+      <button
+        mat-raised-button
+        color="warn"
+        routerLink="/authors/{{ author.id }}"
+      >Author's Page</button>
+ 
+      <div class="books-wrap" *ngIf="author.works">
+        <mat-card
+          *ngFor="let work of author.works"
+          routerLink="/books/{{ work.id }}"
+        >
+          {{ work.name }}
+        </mat-card>
+      </div>
+    </div>
+
+  </mat-expansion-panel>
+
+</div>
