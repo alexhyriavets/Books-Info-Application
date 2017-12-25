@@ -2,7 +2,7 @@
 
   <mat-card *ngFor="let book of books">
 
-    <mat-card-title routerLink="/books/{{ book.id }}">
+    <mat-card-title routerLink="{{ book.id }}">
       {{ book.name }}
     </mat-card-title>
     <mat-card-subtitle
